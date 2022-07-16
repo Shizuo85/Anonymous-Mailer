@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Email Sender</title>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1 id="title">Email Sender</h1>
+      <p id="description">Welcome</p>
+    </header>
+    <form id="survey-form" method="POST" action="/">
+      <div class="form-group">
+        <label for="senderEmail" id="email-label">From</label>
+        <input type="email" name="from" id="senderEmail" class="form-control" value="zuritask7@gmail.com" readonly>
+      </div>
+      <div class="form-group">
+        <label for="receiverEmail" id="email-label">To</label>
+        <input type="email" name="to" id="receiverEmail" class="form-control" placeholder="Enter recipents' email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id = "subject" class="form-control" placeholder="Enter subject" required>
+      </div>
+      <div class="form-group">
+        Compose email
+        <textarea placeholder="Compose email" class="text-area" name="html" required></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" id="submit" Value="Send">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
