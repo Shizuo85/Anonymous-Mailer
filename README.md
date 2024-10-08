@@ -1,4 +1,4 @@
-# ZuriTask7
+# Anonymous-Mailer
 Link to project: https://replit.com/@Shizuo85/ZuriTask7#index.js
 
 # Description:
